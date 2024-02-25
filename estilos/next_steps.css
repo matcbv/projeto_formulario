@@ -1,0 +1,87 @@
+@media screen and (max-height:680px){
+    #button-group input{
+        display: inline-block;
+        width: 140px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-height:600px){
+    #back-form{
+        display: block;
+    }
+
+    #button-group input{
+        display: inline-block;
+        width: 140px;
+        height: 30px;
+    }
+
+    #sup-input{
+        width: 100%;
+    }
+
+    .input-group{
+        display: inline-block;
+        width: 30%;
+    }
+
+    .input-group input{
+        width: 90px;
+    }
+}
+
+@media screen and (max-height:520px){
+    #back-form{
+        display: none;
+    }
+
+    #div-content{
+        height: 100%;
+        top: 0;
+    }
+    
+    #div-content p{
+        display: inline-block;
+        height: 20%;
+        margin-top: 7%;
+        font-size: 1.3em;
+    }
+
+    #button-group input{
+        width: 150px;
+    }
+
+    form{
+        height: 60%;
+        width: 100%;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-height:400px){
+    section{
+        height: 40%;
+    }
+    
+    form{
+        height: 100%;
+        top: 50%;
+    }
+    
+    #div-content p{
+        display: none;
+        height: 100%;
+    }
+
+    #input-group{
+        height: 50%;
+    }
+
+    #button-group{
+        height: 50%;
+    }
+}
