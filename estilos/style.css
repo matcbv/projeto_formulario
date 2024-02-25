@@ -32,7 +32,7 @@ section{
 }
 
 .input-group input{
-    height: 20px;
+    height: 23px;
     padding-left: 7px;
     border-radius: 0 10px 10px 0;
     border: 2px solid black;
@@ -73,9 +73,10 @@ section{
 }
 
 form img{
-    margin-bottom: -8px;
+    margin-bottom: -9.5px;
     background-color: rgba(89, 153, 89, 0.404);
     border-radius: 10px 0 0 10px;
+    height: 28px;
 }
 
 #button-group{
