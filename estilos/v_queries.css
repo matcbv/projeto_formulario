@@ -82,12 +82,19 @@
     }
 }
 
-@media screen and (max-height:430px){
+@media screen and (max-height:580px){
     section{
         width: 60%;
-        height: 70%;
+        height: 60%;
     }
     
+    form{
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        transform: translate(0, -50%);
+    }
+
     #div-content p{
         font-size: 0.9em;
         width: 80%;
