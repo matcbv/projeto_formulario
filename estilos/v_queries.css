@@ -95,12 +95,17 @@
         margin-bottom: 10px;
     }
 
+    #button-group{
+        margin-top: 5px;
+    }
+
     #button-group input{
         height: 23px;
     }
 
     .input-group input{
         height: 17px;
+        width: 100px;
     }
 }
 
