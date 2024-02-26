@@ -1,79 +1,148 @@
-@media screen and (max-height:680px){
-    #button-group input{
-        display: inline-block;
-        width: 140px;
-        height: 30px;
-    }
-}
-
-@media screen and (max-height:600px){
-    #button-group input{
-        display: inline-block;
-        width: 140px;
-        height: 30px;
+@media screen and (orientation:landscape) and (max-height:600px){
+    #back-form{
+        display: block;
     }
 
-    #sup-input{
-        width: 100%;
-    }
-
-    .input-group{
-        display: inline-block;
-        width: 30%;
-    }
-
-    .input-group input{
-        width: 90px;
-    }
-}
-
-@media screen and (max-height:520px){
-    #div-content{
-        height: 100%;
-        top: 0;
+    section{
+        width: 80%;
     }
     
-    #div-content p{
-        display: inline-block;
-        height: 20%;
-        margin-top: 7%;
-        font-size: 1.3em;
-    }
-
-    #button-group input{
+    .input-group input{
         width: 150px;
     }
 
-    form{
-        height: 60%;
-        width: 100%;
-        position: absolute;
-        top: 70%;
+    #button-group{
+        margin-top: 20px;
+    }
+
+    #button-group input{
+        width: 180px;
+        height: 35px;
+    }
+
+    #back-form{
+        top: 0;
         left: 50%;
-        transform: translate(-50%, -50%);
+        height: 100%;
+        width: 50%;
+        border-radius: 0 20px 20px 0;
+    }
+
+    #div-content{
+        width: 50%;
+        height: 100%;
+        top: 0;
+        left: 25%;
+        margin-top: 0;
+    }
+
+    #div-content p{
+        font-size: 1.2em;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    form{
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
     }
 }
 
-@media screen and (max-height:400px){
-    section{
-        height: 40%;
+@media screen and (orientation:landscape) and (max-height:600px) and (max-width:800px){
+    #div-content p{
+        font-size: 1.1em;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
     }
+}
+
+@media screen and (max-height:650px) and (max-width:600px){
     
-    form{
-        height: 100%;
-        top: 50%;
+    #button-group{
+        width: 100%;
+    }
+
+    #button-group input{
+        display: inline-block;
+        width: 115px;
+    }
+}
+
+@media screen and (max-height:650px) and (max-width:300px){
+    section{
+        height: 60%;
+    }
+
+    #button-group input{
+        display: block;
+        width: 120px;
+    }
+}
+
+@media screen and (max-height:430px){
+    section{
+        width: 60%;
+        height: 70%;
     }
     
     #div-content p{
-        display: none;
-        height: 100%;
+        font-size: 0.9em;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
     }
 
-    #input-group{
-        height: 50%;
+    #button-group input{
+        height: 23px;
+    }
+
+    .input-group input{
+        height: 17px;
+    }
+}
+
+@media screen and (max-height:300px), screen and (max-height:400px) and (max-width:750px){
+    section{
+        width: 50%;
+    }
+    
+    #div-content{
+        width: 100%;
+        left: 50%;
+    }
+    
+    #div-content p{
+        width: 90%;
+    }
+
+    form{
+        width: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #back-form{
+        display: none;
+    }
+    
+    .input-group{
+        display: inline-block;
+    }
+
+    .input-group input{
+        width: 80px;
     }
 
     #button-group{
-        height: 50%;
+        margin-top: 10px;
+        display: block;
+    }
+
+    #button-group input{
+        display: inline-block;
+        width: 120px;
     }
 }
