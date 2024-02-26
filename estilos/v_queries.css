@@ -16,7 +16,7 @@
     }
 
     #button-group input{
-        width: 180px;
+        width: 140px;
         height: 35px;
     }
 
@@ -103,11 +103,11 @@
     }
 
     #button-group{
-        margin-top: 5px;
+        margin-top: 15px;
     }
 
     #button-group input{
-        height: 23px;
+        height: 25px;
     }
 
     .input-group input{
