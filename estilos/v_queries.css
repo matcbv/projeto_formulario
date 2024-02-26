@@ -104,30 +104,31 @@
     }
 }
 
-@media screen and (max-height:250px), screen and (max-height:250px) and (max-width:750px){
+@media screen and (max-height:250px), screen and (max-height:250px) and (max-width:750px){    
     section{
-        width: 50%;
+        width: 80%;
     }
     
     #div-content{
-        width: 100%;
-        left: 50%;
+        width: 60%;
+        left: 30%;
     }
     
     #div-content p{
-        width: 90%;
+        width: 60%;
     }
 
+    #back-form{
+        width: 40%;
+        left: 60%;
+    }
+     
     form{
-        width: 80%;
+        width: 100%;
         left: 50%;
         transform: translate(-50%, -50%);
     }
 
-    #back-form{
-        display: none;
-    }
-    
     .input-group{
         display: inline-block;
     }
