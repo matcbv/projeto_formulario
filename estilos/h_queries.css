@@ -44,10 +44,6 @@
 }
 
 @media screen and (min-width:600px){
-    #div-content{
-        margin-top: 10px;
-    }
-    
     .input-group input{
         width: 150px;
     }
@@ -95,7 +91,7 @@
     #div-content{
         width: 50%;
         height: 100%;
-        top: 25%;
+        top: 0;
         left: 25%;
     }
 
@@ -104,5 +100,11 @@
         width: 80%;
         margin: auto;
         margin-bottom: 20px;
+    }
+
+    form{
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
     }
 }
