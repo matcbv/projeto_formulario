@@ -7,10 +7,6 @@
 }
 
 @media screen and (max-height:600px){
-    #back-form{
-        display: block;
-    }
-
     #button-group input{
         display: inline-block;
         width: 140px;
@@ -32,10 +28,6 @@
 }
 
 @media screen and (max-height:520px){
-    #back-form{
-        display: none;
-    }
-
     #div-content{
         height: 100%;
         top: 0;
