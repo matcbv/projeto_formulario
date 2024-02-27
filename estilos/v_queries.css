@@ -157,11 +157,11 @@
 
     #button-group input{
         display: inline-block;
-        width: 150px;
+        width: 140px;
     }
 }
 
-@media screen and (max-height:250px) and (max-width:660px){
+@media screen and (max-height:300px) and (max-width:600px){
     #back-form{
         display: none;
     }
