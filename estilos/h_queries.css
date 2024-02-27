@@ -23,7 +23,7 @@
 
 @media screen and (min-width:400px){
     body{
-        background-image: linear-gradient(#325f4cc9, #9cd1bb);
+        background-image: linear-gradient(#a5a29fd7,#a3bd93);
     }
 
     #div-content p{
@@ -40,9 +40,7 @@
     #back-form{
         border-radius: 20px 20px 0 0;
     }
-}
 
-@media screen and (min-width:600px){
     .input-group input{
         width: 150px;
     }
@@ -50,10 +48,6 @@
     #button-group input{
         width: 160px;
         height: 30px;
-    }
-
-    #button-group{
-        margin-top: 15px;
     }
 }
 
@@ -63,7 +57,7 @@
     }
 
     section{
-        width: 80%;
+        width: 75%;
     }
     
     .input-group input{

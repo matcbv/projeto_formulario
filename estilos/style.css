@@ -1,9 +1,4 @@
 /* Cores utilizadas no desenvolvimento do formulário */
-:root{
-    --cor01: #244236c9;
-    --cor02: #343477;
-    --cor03: #a6dfc8;
-}
 
 *{
     margin: 0;
@@ -13,7 +8,7 @@
 body{
     height: 100vh;
     position: relative;
-    background-color: var(--cor01);
+    background-color: rgba(114, 98, 84, 0.808);
 }
 
 section{
@@ -21,21 +16,23 @@ section{
     height: 55%;
     margin: auto;
     text-align: center;
-    background-color: var(--cor03);
+    background-color: #96b3a6;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px 20px 20px 20px;
     border-radius: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.61);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.61);
+    transition: width .7s, height .7s;
+    transition-timing-function: ease-in-out;
 }
 
 .input-group input{
-    height: 23px;
+    height: 25px;
     padding-left: 7px;
     border-radius: 0 10px 10px 0;
-    border: 2px solid black;
+    border: 1.5px solid black;
 }
 
 #input02{
@@ -50,7 +47,7 @@ section{
     top: 0;
     left: 0;
     border-radius: 20px 20px 0 0;
-    background: rgba(89, 153, 89, 0.404) url(../imagens/back_form_small.jpg) no-repeat bottom center;
+    background: #96b3a6 url(../imagens/back_form_small.jpg) no-repeat bottom center;
     background-size: cover;
 }
 
@@ -83,13 +80,9 @@ form{
 
 form img{
     margin-bottom: -10px;
-    background-color: rgba(89, 153, 89, 0.404);
+    background-color: rgba(104, 117, 104, 0.404);
     border-radius: 10px 0 0 10px;
-    height: 28px;
-}
-
-#button-group{
-    margin-top: 15px;
+    height: 28.5px;
 }
 
 #button-group input{
@@ -99,13 +92,15 @@ form img{
     padding: 3px 0;
     height: 25px;
     margin-top: 10px;
-    background-color: rgba(89, 153, 89, 0.404);
+    background-color: rgba(104, 117, 104, 0.575);
     border-radius: 5px;
     border: 2px solid rgba(3, 36, 3, 0.479);
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.37);
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     transition: top left .1s ease-in-out;
+    color: white;
+    font-size: 1em;
 }
 
 #button-group input:hover{

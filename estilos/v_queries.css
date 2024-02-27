@@ -67,7 +67,8 @@
 
     #button-group input{
         display: inline-block;
-        width: 115px;
+        width: 120px;
+        font-size: 0.8em;
     }
 }
 
@@ -107,7 +108,7 @@
     }
 
     #button-group input{
-        height: 25px;
+        height: 30px;
     }
 
     .input-group input{
@@ -116,7 +117,7 @@
     }
 }
 
-@media screen and (max-height:250px), screen and (max-height:250px) and (max-width:750px){    
+@media screen and (max-height:350px), screen and (max-height:250px) and (max-width:750px){    
     section{
         width: 80%;
     }
@@ -146,7 +147,7 @@
     }
 
     .input-group input{
-        width: 80px;
+        width: 100px;
     }
 
     #button-group{
@@ -156,6 +157,30 @@
 
     #button-group input{
         display: inline-block;
+        width: 150px;
+    }
+}
+
+@media screen and (max-height:250px) and (max-width:660px){
+    #back-form{
+        display: none;
+    }
+
+    section{
+        width: 50%;
+    }
+
+    #div-content{
+        width: 100%;
+        left: 50%;
+    }
+
+    .input-group input{
+        width: 80px;
+    }
+
+    #button-group input{
+        font-size: 0.8em;
         width: 120px;
     }
 }
